@@ -12,7 +12,7 @@
 [website-link]: https://kotelek.dev/kittyauth/
 
 [docs-badge]: https://img.shields.io/badge/docs-green?labelColor=0c0d10&color=1d0732&style=for-the-badge&logo=readthedocs&logoColor=611aa8
-[docs-link]: https://docs.betterdiscord.app
+[docs-link]: https://github.com/xKotelek/kittyauth/wiki
 
 
 Kittyauth is a easy-to-use & secure authorization system. Prove of security (hashes usage) below.
