@@ -131,5 +131,5 @@ if(isset($_GET['access_token'])) {
 </html>
 ```
 So that's it, we made it! Result below.<br>
-[![Example Result](https://kittyauth.kotelek.dev//assets/success.png)](https://kittyauth.kotelek.dev/)<br>
+[![Example Result](https://kittyauth.kotelek.dev/assets/success.png)](https://kittyauth.kotelek.dev/)<br>
 What this code basically does is it checks the access token with api and if the token is correct api returns user data that website prints. If not we get login and register buttons back. More information [here](https://github.com/xKotelek/kittyauth/wiki)
