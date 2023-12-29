@@ -17,7 +17,7 @@
 
 Kittyauth is a easy-to-use & secure authorization system. Prove of security (hashes usage) below.
 
-[![Hashes Usage Prove](https://kittyauth.kotelek.dev//assets/hashes-usage.png)](https://kittyauth.kotelek.dev/)
+[![Hashes Usage Prove](https://kittyauth.kotelek.dev/assets/hashes-usage.png)](https://kittyauth.kotelek.dev/)
 
 </div>
 
