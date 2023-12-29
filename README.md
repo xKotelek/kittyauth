@@ -55,8 +55,8 @@ if(!isset($_SESSION['logged'])) {
 </head>
 <body>
   <?php if($_SESSION['logged'] = false) { ?>
-    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/"></a>Login</button><br>
-    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/"></a>Register</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/">Login</a></button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/">Register</a></button><br>
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
@@ -120,8 +120,8 @@ if(isset($_GET['access_token'])) {
 </head>
 <body>
   <?php if($_SESSION['logged'] == false) { ?>
-    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/"></a>Login</button><br>
-    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/"></a>Register</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/">Login</a></button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/">Register</a></button><br>
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
