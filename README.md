@@ -1,6 +1,6 @@
 <div align="center">
 
-[![kittyauth Logo](https://kotelek.dev/kittyauth/assets/logo.png)](https://kotelek.dev/kittyauth/)
+[![kittyauth Logo](https://kittyauth.kotelek.dev/assets/logo.png)](https://kittyauth.kotelek.dev/)
 
 [![CI Status][build-badge]][build-link] [![Website][website-badge]][website-link] [![Docs][docs-badge]][docs-link]
 
@@ -9,7 +9,7 @@
 [build-link]: https://github.com/xKotelek/kittyauth/actions/workflows/blank.yml
 
 [website-badge]: https://img.shields.io/badge/website-green?labelColor=0c0d10&color=1d0732&style=for-the-badge&logo=firefoxbrowser&logoColor=611aa8
-[website-link]: https://kotelek.dev/kittyauth/
+[website-link]: https://kittyauth.kotelek.dev/
 
 [docs-badge]: https://img.shields.io/badge/docs-green?labelColor=0c0d10&color=1d0732&style=for-the-badge&logo=readthedocs&logoColor=611aa8
 [docs-link]: https://github.com/xKotelek/kittyauth/wiki
@@ -17,7 +17,7 @@
 
 Kittyauth is a easy-to-use & secure authorization system. Prove of security (hashes usage) below.
 
-[![Hashes Usage Prove](https://kotelek.dev/kittyauth/assets/hashes-usage.png)](https://kotelek.dev/kittyauth/)
+[![Hashes Usage Prove](https://kittyauth.kotelek.dev//assets/hashes-usage.png)](https://kittyauth.kotelek.dev/)
 
 </div>
 
@@ -131,5 +131,5 @@ if(isset($_GET['access_token'])) {
 </html>
 ```
 So that's it, we made it! Result below.<br>
-[![Example Result](https://kotelek.dev/kittyauth/assets/success.png)](https://kotelek.dev/kittyauth/)<br>
+[![Example Result](https://kittyauth.kotelek.dev//assets/success.png)](https://kittyauth.kotelek.dev/)<br>
 What this code basically does is it checks the access token with api and if the token is correct api returns user data that website prints. If not we get login and register buttons back. More information [here](https://github.com/xKotelek/kittyauth/wiki)
