@@ -65,7 +65,7 @@ if(!isset($_SESSION['logged'])) {
 </body>
 </html>
 ```
-[![Screenshot 1](https://kittyauth.kotelek.dev/assets/ss1.png)](https://kittyauth.kotelek.dev/)
+[![Screenshot 1](https://kittyauth.kotelek.dev/assets/ss1.png)](https://kittyauth.kotelek.dev/)<br>
 So we have login, register and if logged logout button, but how to get user information after logging?<br>
 We are gonna add listening to GET parameter named "access_token" that's token that we can use to get all of user data.<br>
 We also add listening to GET parameter named "logged_out" to reset SESSION logged state to false!
