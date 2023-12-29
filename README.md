@@ -55,12 +55,12 @@ if(!isset($_SESSION['logged'])) {
 </head>
 <body>
   <?php if($_SESSION['logged'] = false) { ?>
-    <button><a href="https://kotelek.dev/kittyauth/?login&next=https://your-site.com/"></a>Login</button><br>
-    <button><a href="https://kotelek.dev/kittyauth/?register&next=https://your-site.com/"></a>Register</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/"></a>Login</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/"></a>Register</button><br>
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
-    <button><a href="https://kotelek.dev/kittyauth/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
+    <button><a href="https://kittyauth.kotelek.dev/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
   <?php } ?>
 </body>
 </html>
@@ -80,7 +80,7 @@ if(!isset($_SESSION['logged'])) {
 if(isset($_GET['logged_out'])) { $_SESSION['logged'] = false; header('Location: ./ '); };
 
 if(isset($_GET['access_token'])) {
-    $url = 'https://kotelek.dev/kittyauth/api/?get=access_token&toget=userdata&access_token=' . $_GET['access_token'];
+    $url = 'https://kittyauth.kotelek.dev/api/?get=access_token&toget=userdata&access_token=' . $_GET['access_token'];
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -120,12 +120,12 @@ if(isset($_GET['access_token'])) {
 </head>
 <body>
   <?php if($_SESSION['logged'] == false) { ?>
-    <button><a href="https://kotelek.dev/kittyauth/?login&next=https://your-site.com/"></a>Login</button><br>
-    <button><a href="https://kotelek.dev/kittyauth/?register&next=https://your-site.com/"></a>Register</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?login&next=https://your-site.com/"></a>Login</button><br>
+    <button><a href="https://kittyauth.kotelek.dev/?register&next=https://your-site.com/"></a>Register</button><br>
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
-    <button><a href="https://kotelek.dev/kittyauth/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
+    <button><a href="https://kittyauth.kotelek.dev/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
   <?php } ?>
 </body>
 </html>
