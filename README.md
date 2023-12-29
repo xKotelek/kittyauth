@@ -60,11 +60,12 @@ if(!isset($_SESSION['logged'])) {
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
-    <button><a href="https://kittyauth.kotelek.dev/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
+    <button><a href="https://kittyauth.kotelek.dev/?logout&next=https://your-site.com/?logged_out">Logout</a></button>
   <?php } ?>
 </body>
 </html>
 ```
+[![Screenshot 1](https://kittyauth.kotelek.dev/assets/ss1.png)](https://kittyauth.kotelek.dev/)
 So we have login, register and if logged logout button, but how to get user information after logging?<br>
 We are gonna add listening to GET parameter named "access_token" that's token that we can use to get all of user data.<br>
 We also add listening to GET parameter named "logged_out" to reset SESSION logged state to false!
@@ -125,7 +126,7 @@ if(isset($_GET['access_token'])) {
   <?php } else { ?>
     Hi, <?php echo $_SESSION['username']; ?>
     Your email is: <?php echo $_SESSION['usermail']; ?>
-    <button><a href="https://kittyauth.kotelek.dev/?logmeout&next=https://your-site.com/?logged_out">Logout</a></button>
+    <button><a href="https://kittyauth.kotelek.dev/?logout&next=https://your-site.com/?logged_out">Logout</a></button>
   <?php } ?>
 </body>
 </html>
